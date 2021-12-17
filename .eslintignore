@@ -1,0 +1,12 @@
+scripts
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+tmp
+**/.tmp
+release
+.vscode

@@ -5,26 +5,25 @@
 ![GitHub stars](https://img.shields.io/github/stars/caoxiemeihao/electron-vue-vite?color=fa6470&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/caoxiemeihao/electron-vue-vite?style=flat)
 
-
 **English | [简体中文](README.zh-CN.md)**
 
 🥳 Very simple `Electron` + `Vue3` + `Vite2` boilerplate.
 
 ## Run Setup
 
-  ```bash
-  # clone the project
-  git clone git@github.com:caoxiemeihao/electron-vue-vite.git
+```bash
+# clone the project
+git clone git@github.com:caoxiemeihao/electron-vue-vite.git
 
-  # enter the project directory
-  cd electron-vue-vite
+# enter the project directory
+cd electron-vue-vite
 
-  # install dependency
-  npm install
+# install dependency
+npm install
 
-  # develop
-  npm run dev
-  ```
+# develop
+npm run dev
+```
 
 ## Directory
 
@@ -69,7 +68,7 @@
 
 **All NodeJs、Electron API invoke passed `Preload-script`**
 
-* **src/preload/index.ts**
+- **src/preload/index.ts**
 
   ```typescript
   // --------- Expose some API to Renderer process. ---------
@@ -77,7 +76,7 @@
   contextBridge.exposeInMainWorld('ipcRenderer', ipcRenderer)
   ```
 
-* **src/renderer/src/main.ts**
+- **src/renderer/src/main.ts**
 
   ```typescript
   console.log('fs', window.fs)
@@ -85,6 +84,7 @@
   ```
 
 ## Mian window
+
 <img width="400px" src="https://raw.githubusercontent.com/caoxiemeihao/blog/main/electron-vue-vite/screenshot/electron-15.png" />
 
 ## Wechat

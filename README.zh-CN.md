@@ -5,26 +5,25 @@
 ![GitHub stars](https://img.shields.io/github/stars/caoxiemeihao/electron-vue-vite?color=fa6470&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/caoxiemeihao/electron-vue-vite?style=flat)
 
-
 **[English](README.md) | 简体中文**
 
 🥳 `Electron` + `Vue3` + `Vite2` 整合模板 -- **结构简单，容易上手！**
 
 ## 运行项目
 
-  ```bash
-  # clone the project
-  git clone git@github.com:caoxiemeihao/electron-vue-vite.git
+```bash
+# clone the project
+git clone git@github.com:caoxiemeihao/electron-vue-vite.git
 
-  # enter the project directory
-  cd electron-vue-vite
+# enter the project directory
+cd electron-vue-vite
 
-  # install dependency
-  npm install
+# install dependency
+npm install
 
-  # develop
-  npm run dev
-  ```
+# develop
+npm run dev
+```
 
 ## 目录结构
 
@@ -65,7 +64,6 @@
 ├
 ```
 
-
 ## 渲染进程使用 NodeJs API
 
 - 因为安全的原因 Electron 默认不支持在 渲染进程 中使用 NodeJs API
@@ -90,6 +88,7 @@
   ```
 
 ## 运行效果
+
 <img width="400px" src="https://raw.githubusercontent.com/caoxiemeihao/blog/main/electron-vue-vite/screenshot/electron-15.png" />
 
 ## 微信 | | 请我喝杯下午茶 🥳

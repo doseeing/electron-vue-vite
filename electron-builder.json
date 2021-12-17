@@ -4,24 +4,16 @@
   "directories": {
     "output": "release/${version}"
   },
-  "files": [
-    "!node_modules",
-    "dist",
-    "package.json"
-  ],
+  "files": ["!node_modules", "dist", "package.json"],
   "mac": {
     "artifactName": "${productName}_${version}.${ext}",
-    "target": [
-      "dmg"
-    ]
+    "target": ["dmg"]
   },
   "win": {
     "target": [
       {
         "target": "nsis",
-        "arch": [
-          "x64"
-        ]
+        "arch": ["x64"]
       }
     ],
     "artifactName": "${productName}_${version}.${ext}"
