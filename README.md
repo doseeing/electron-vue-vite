@@ -19,10 +19,10 @@ git clone git@github.com:caoxiemeihao/electron-vue-vite.git
 cd electron-vue-vite
 
 # install dependency
-npm install
+yarn
 
 # develop
-npm run dev
+yarn dev
 ```
 
 ## Directory
@@ -35,9 +35,9 @@ npm run dev
 ├   ├── vite-renderer.config.ts      Renderer-script config file, for -> src/renderer
 ├
 ├── scripts
-├   ├── build.mjs                    Build script, for -> npm run build
+├   ├── build.mjs                    Build script, for -> yarn build
 ├   ├── electron-builder.config.mjs
-├   ├── watch.mjs                    Develop script, for -> npm run dev
+├   ├── watch.mjs                    Develop script, for -> yarn dev
 ├
 ├── src
 ├   ├── main                         Main-process source code
@@ -48,7 +48,7 @@ npm run dev
 
 #### `dist` and `src`
 
-- Once `npm run dev` or `npm run build` is executed. Will be generated `dist`, it is the same as the `src` structure.
+- Once `yarn dev` or `yarn build` is executed. Will be generated `dist`, it is the same as the `src` structure.
 
 - This ensures the accuracy of path calculation.
 

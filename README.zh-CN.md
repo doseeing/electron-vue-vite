@@ -19,10 +19,10 @@ git clone git@github.com:caoxiemeihao/electron-vue-vite.git
 cd electron-vue-vite
 
 # install dependency
-npm install
+yarn
 
 # develop
-npm run dev
+yarn dev
 ```
 
 ## 目录结构
@@ -35,9 +35,9 @@ npm run dev
 ├   ├── vite-renderer.config.ts      渲染进程配置文件，编译 src/renderer
 ├
 ├── scripts
-├   ├── build.mjs                    项目构建脚本，对应 npm run build
+├   ├── build.mjs                    项目构建脚本，对应 yarn build
 ├   ├── electron-builder.config.mjs
-├   ├── watch.mjs                    项目开发脚本，对应 npm run dev
+├   ├── watch.mjs                    项目开发脚本，对应 yarn dev
 ├
 ├── src
 ├   ├── main                         主进程源码
